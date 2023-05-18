@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap');
+@layer base {
+    a {
+        font-family: 'Oswald', sans-serif;
+    }
+    h1{
+        font-family: 'Teko', sans-serif;
+    }
+    .social-icon:hover {
+        filter: invert(24%) sepia(15%) saturate(3605%) hue-rotate(292deg) brightness(91%) contrast(105%);
+      }
+      @keyframes bounce {
+        50%,
+        80%,
+        100% {
+          transform: translateY(0);
+        }
+        70% {
+          transform: translateY(-10px);
+        }
+        90% {
+          transform: translateY(-5px);
+        }
+      }
+      
+      .bounce-animation {
+        animation: bounce 0.75s ease-in-out;
+      }
+}
