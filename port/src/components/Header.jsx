@@ -3,10 +3,10 @@ import { SocialIcon } from "react-social-icons";
 
 function Header() {
   return (
-    <div className="flex h-[600px] sm:h-[750px] mx-auto">
-      <div className="w-4/5 mx-auto flex flex-col justify-center text-center ">
-        <div className="mb-5">
-          <p className="text-purple-500 text-2xl sm:text-4xl md:text-6xl lg:text-7xl xl:text-8xl ">
+    <div className="flex h-[600px] sm:h-[920px] mx-auto ">
+      <div className="w-4/5 mx-auto flex flex-col justify-center text-center">
+        <div className="mb-5  ">
+          <p className="text-purple-500 text-2xl sm:text-4xl md:text-6xl lg:text-7xl xl:text-8xl lg:my-10 ">
             PURIMPAT WAORAKAICHARUPHAK
           </p>
         </div>

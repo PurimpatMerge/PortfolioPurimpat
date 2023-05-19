@@ -23,21 +23,34 @@ import bitbuk from "./photoSkills/bitbuk.png";
 
 function Credential({ id }) {
   return (
+    <div id={id}>
+
     <div className="bg-black ">
-      <div id={id} className="sm:w-1/2 sm:w-3/4 mx-auto pt-10 pb-10">
+      <div  className="sm:w-1/2 sm:w-3/4 mx-auto pt-10 pb-10">
         <div className="flex flex-col lg:flex  lg:flex-row  ">
-            {/* Personal info */}
+          {/* Personal info */}
           <div className=" lg:w-1/2 2xl:w-4/12 p-5  lg:border-r lg:boder-white ">
-          <p className="text-center text-white font-bold text-3xl mb-5">
-          Personal info
+            <p className="text-center text-white font-bold text-3xl mb-5">
+              Personal info
             </p>
             <div className="flex justify-center">
-              <img src={profileImg} alt="profileImg" className="shadow-lg shadow-indigo-500/50 h-[300px] mt-5 lg:h-[300px] xl:h-[450px] " />
+              <img
+                src={profileImg}
+                alt="profileImg"
+                className="shadow-lg shadow-violet-950 h-[300px] mt-5 lg:h-[300px] xl:h-[450px] "
+                />
             </div>
-            <div className="mt-5 text-center lg:text-left">
-              <p className="text-white">Nickname : Dunk</p>
-              <p className="text-white">Phone number : 082-563-9991</p>
-              <p className="text-white">Email : mergeofficial@hotmail.com</p>
+            <div className="grid grid-cols-2  mt-5 ">
+              <div className="col-span-1">
+                <p className="text-white">Nickname:</p>
+                <p className="text-white">Phone number:</p>
+                <p className="text-white">Email:</p>
+              </div>
+              <div className="col-span-1">
+                <p className="text-white">Dunk</p>
+                <p className="text-white">082-563-9991</p>
+                <p className="text-white ">mergeofficial@hotmail.com</p>
+              </div>
             </div>
           </div>
           {/* Skills */}
@@ -57,16 +70,20 @@ function Credential({ id }) {
                       src={htmlicon}
                       alt="htmlicon"
                       className="h-[35px] w-[35px] mx-auto"
-                    />
-                    <p className="text-white text-center text-xs sm:text-base">HTML</p>
+                      />
+                    <p className="text-white text-center text-xs sm:text-base">
+                      HTML
+                    </p>
                   </div>
                   <div className="backdrop-blur-sm backdrop-blur-sm bg-white/10 p-5 rounded-md">
                     <img
                       src={nosqlicon}
                       alt="nosqlicon"
                       className="h-[35px] w-[35px] mx-auto"
-                    />
-                    <p className="text-white text-center text-xs sm:text-base">No SQL</p>
+                      />
+                    <p className="text-white text-center text-xs sm:text-base">
+                      No SQL
+                    </p>
                   </div>
                   <div className="backdrop-blur-sm backdrop-blur-sm bg-white/10 p-5 rounded-md">
                     <img
@@ -74,15 +91,19 @@ function Credential({ id }) {
                       alt="htmlicon"
                       className="h-[35px] w-[35px] mx-auto"
                     />
-                    <p className="text-white text-center text-xs sm:text-base">CSS</p>
+                    <p className="text-white text-center text-xs sm:text-base">
+                      CSS
+                    </p>
                   </div>
                   <div className="backdrop-blur-sm backdrop-blur-sm bg-white/10 p-5 rounded-md">
                     <img
                       src={JavaScript}
                       alt="htmlicon"
                       className="h-[35px] w-[35px] mx-auto"
-                    />
-                    <p className="text-white text-center text-xs sm:text-base">JS</p>
+                      />
+                    <p className="text-white text-center text-xs sm:text-base">
+                      JS
+                    </p>
                   </div>
                 </div>
                 {/* split */}
@@ -96,16 +117,21 @@ function Credential({ id }) {
                       src={reactjs}
                       alt="htmlicon"
                       className="h-[35px] w-[60px] mx-auto"
-                    />
-                    <p className="text-white text-center text-xs sm:text-base">ReactJS</p>
+                      />
+                    <p className="text-white text-center text-xs sm:text-base">
+                      ReactJS
+                    </p>
                   </div>
                   <div className="backdrop-blur-sm backdrop-blur-sm bg-white/10 p-5 rounded-md">
                     <img
+                     
                       src={tailwind}
                       alt="nosqlicon"
                       className="h-[35px] w-[35px] mx-auto"
                     />
-                    <p className="text-white text-center text-xs sm:text-base">Tailwind</p>
+                    <p className="text-white text-center text-xs sm:text-base">
+                      Tailwind
+                    </p>
                   </div>
                   <div className="backdrop-blur-sm backdrop-blur-sm bg-white/10 p-5 rounded-md">
                     <img
@@ -113,7 +139,9 @@ function Credential({ id }) {
                       alt="htmlicon"
                       className="h-[35px] w-[35px] mx-auto"
                     />
-                    <p className="text-white text-center text-xs sm:text-base">Antd</p>
+                    <p className="text-white text-center text-xs sm:text-base">
+                      Antd
+                    </p>
                   </div>
                   <div className="backdrop-blur-sm backdrop-blur-sm bg-white/10 p-5 rounded-md">
                     <img
@@ -121,7 +149,9 @@ function Credential({ id }) {
                       alt="htmlicon"
                       className="h-[35px] w-[35px] mx-auto"
                     />
-                    <p className="text-white text-center text-xs sm:text-base">Axios</p>
+                    <p className="text-white text-center text-xs sm:text-base">
+                      Axios
+                    </p>
                   </div>
                 </div>
                 {/* rows 2 */}
@@ -132,7 +162,9 @@ function Credential({ id }) {
                       alt="htmlicon"
                       className="h-[35px] w-[35px] mx-auto"
                     />
-                    <p className="text-white text-center text-xs sm:text-base">Firebase</p>
+                    <p className="text-white text-center text-xs sm:text-base">
+                      Firebase
+                    </p>
                   </div>
                   <div className="backdrop-blur-sm backdrop-blur-sm bg-white/10 p-5 rounded-md">
                     <img
@@ -140,7 +172,9 @@ function Credential({ id }) {
                       alt="htmlicon"
                       className="h-[35px] w-full mx-auto"
                     />
-                    <p className="text-white text-center text-xs sm:text-base">Express</p>
+                    <p className="text-white text-center text-xs sm:text-base">
+                      Express
+                    </p>
                   </div>
                   <div className="backdrop-blur-sm backdrop-blur-sm bg-white/10 pt-5 sm:p-5 rounded-md ">
                     <img
@@ -148,10 +182,11 @@ function Credential({ id }) {
                       alt="htmlicon"
                       className="h-[35px] w-[35px] mx-auto "
                     />
-                    <p className="text-white text-center text-xs sm:text-base">Mongoose</p>
+                    <p className="text-white text-center text-xs sm:text-base">
+                      Mongoose
+                    </p>
                   </div>
                 </div>
-                
               </div>
               {/* split */}
               <div className="2xl:w-1/2 ">
@@ -164,7 +199,9 @@ function Credential({ id }) {
                       alt="htmlicon"
                       className="h-[35px] w-full mx-auto"
                     />
-                    <p className="text-white text-center text-xs sm:text-base">Swagger</p>
+                    <p className="text-white text-center text-xs sm:text-base">
+                      Swagger
+                    </p>
                   </div>
                   <div className="backdrop-blur-sm backdrop-blur-sm bg-white/10 p-5 rounded-md">
                     <img
@@ -172,7 +209,9 @@ function Credential({ id }) {
                       alt="nosqlicon"
                       className="h-[35px] w-[35px] mx-auto"
                     />
-                    <p className="text-white text-center text-xs sm:text-base">Postman</p>
+                    <p className="text-white text-center text-xs sm:text-base">
+                      Postman
+                    </p>
                   </div>
                   <div className="backdrop-blur-sm backdrop-blur-sm bg-white/10 p-5 rounded-md">
                     <img
@@ -180,7 +219,9 @@ function Credential({ id }) {
                       alt="htmlicon"
                       className="h-[35px] w-[35px] mx-auto"
                     />
-                    <p className="text-white text-center text-xs sm:text-base">Jira</p>
+                    <p className="text-white text-center text-xs sm:text-base">
+                      Jira
+                    </p>
                   </div>
                   <div className="backdrop-blur-sm backdrop-blur-sm bg-white/10 p-5 rounded-md">
                     <img
@@ -188,7 +229,9 @@ function Credential({ id }) {
                       alt="htmlicon"
                       className="h-[35px] w-[50px] mx-auto"
                     />
-                    <p className="text-white text-center text-xs sm:text-base">Auth0</p>
+                    <p className="text-white text-center text-xs sm:text-base">
+                      Auth0
+                    </p>
                   </div>
                   <div className="backdrop-blur-sm backdrop-blur-sm bg-white/10 p-5 rounded-md">
                     <img
@@ -196,7 +239,9 @@ function Credential({ id }) {
                       alt="htmlicon"
                       className="h-[35px] w-[35px] mx-auto"
                     />
-                    <p className="text-white text-center text-xs sm:text-base">GitHub</p>
+                    <p className="text-white text-center text-xs sm:text-base">
+                      GitHub
+                    </p>
                   </div>
                   <div className="backdrop-blur-sm backdrop-blur-sm bg-white/10 p-5 rounded-md">
                     <img
@@ -204,7 +249,9 @@ function Credential({ id }) {
                       alt="htmlicon"
                       className="h-[35px] w-[50px] mx-auto"
                     />
-                    <p className="text-white text-center text-xs sm:text-base">Render</p>
+                    <p className="text-white text-center text-xs sm:text-base">
+                      Render
+                    </p>
                   </div>
                   <div className="backdrop-blur-sm backdrop-blur-sm bg-white/10 p-5 rounded-md">
                     <img
@@ -212,7 +259,9 @@ function Credential({ id }) {
                       alt="htmlicon"
                       className="h-[35px] w-[35px] mx-auto"
                     />
-                    <p className="text-white text-center text-xs sm:text-base">bitbuket</p>
+                    <p className="text-white text-center text-xs sm:text-base">
+                      bitbuket
+                    </p>
                   </div>
                 </div>
               </div>
@@ -220,6 +269,7 @@ function Credential({ id }) {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }
