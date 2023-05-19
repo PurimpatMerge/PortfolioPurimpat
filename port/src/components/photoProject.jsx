@@ -14,7 +14,7 @@ import carRental from "./projectGallery/carRental.png";
 function PhotoGallery({id}) {
   const projects = [
       { image: poolvilla, title: "Booking poolvilla (Web App APIs)", link: "https://merge-poolvilla.onrender.com/" },
-      { image: booking, title: "Advance calendar (Web App & APIs)", link: "https://merge-poolvilla.onrender.com/" },
+      { image: booking, title: "Advance calendar (Web App & APIs)", link: "https://www.facebook.com/SoftEngPYU/videos/3467799906810444/" },
       { image: carRental, title: "Car Rental (APIs assistance)"},
       { image: music, title: "Music collections (Web App)", link: "https://drive.google.com/file/d/1ZtQNfs1oXdtB3Zaj2bdnZFA7osx8O5DF/view" },
       { image: spr, title: "Project Repo (Web App)" },
