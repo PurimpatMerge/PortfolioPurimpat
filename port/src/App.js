@@ -22,7 +22,7 @@ function App() {
         data-aos="fade-down"
         data-aos-easing="linear"
         data-aos-duration="1500"
-        data-aos-anchor-placement="center-bottom"
+        data-aos-anchor-placement="top-bottom"
       >
         <Header />
       </div>
@@ -30,8 +30,8 @@ function App() {
       <div
         data-aos="fade-down"
         data-aos-easing="linear"
-        data-aos-duration="500"
-        data-aos-anchor-placement="center-bottom"
+        data-aos-duration="1500"
+        data-aos-anchor-placement="top-bottom"
       >
         <Credential id="sectionA" />
       </div>
@@ -39,7 +39,7 @@ function App() {
         data-aos="fade-down"
         data-aos-easing="linear"
         data-aos-duration="1500"
-        data-aos-anchor-placement="center-bottom"
+        data-aos-anchor-placement="top-bottom"
       >
         <NextSec id="sectionB" />
       </div>
@@ -47,7 +47,7 @@ function App() {
         data-aos="flip-up"
         data-aos-easing="linear"
         data-aos-duration="1500"
-        data-aos-anchor-placement="center-bottom"
+        data-aos-anchor-placement="top-bottom"
       >
         <Experience />
       </div>
@@ -55,7 +55,7 @@ function App() {
         data-aos="fade-down"
         data-aos-easing="linear"
         data-aos-duration="1500"
-        data-aos-anchor-placement="center-bottom"
+        data-aos-anchor-placement="top-bottom"
       >
       <PhotoGallery id="sectionC" />
       </div>
