@@ -25,7 +25,7 @@ function Credential({ id }) {
   return (
     <div id={id}>
 
-    <div className="bg-black ">
+    <div className="bg-black  ">
       <div  className="sm:w-1/2 sm:w-3/4 mx-auto pt-10 pb-10">
         <div className="flex flex-col lg:flex  lg:flex-row  ">
           {/* Personal info */}

@@ -36,7 +36,7 @@ function App() {
         <Credential id="sectionA" />
       </div>
       <div
-        data-aos="fade-down"
+        data-aos="fade-up"
         data-aos-easing="linear"
         data-aos-duration="1500"
         data-aos-anchor-placement="top-bottom"
